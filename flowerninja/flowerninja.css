@@ -1,0 +1,32 @@
+body{
+	position:relative;
+}
+.box-size{
+	height:200px;
+	width:200px;
+	display:inline-block;
+}
+#flower1{
+	position:absolute;
+	left:400px;
+}
+#flower2{
+	position:absolute;
+	left:700px;
+
+}
+#flower3{
+	position:absolute;
+	top:250px;
+	left:400px;
+}
+#flower4{
+	position:absolute;
+	top:250px;
+	left:700px;
+}
+
+#restore{
+	margin-top: 500px;
+	margin-left:500px;
+}

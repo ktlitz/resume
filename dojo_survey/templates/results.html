@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Results</title>
+  </head>
+  <body>
+    <h1>RESULTS</h1>
+    <p>{{user}}</p>
+    <p>Name: {{user.name}}</p>
+    <p>Loaction: {{user.location}}</p>
+    <p>Favorite language: {{user.language}}</p>
+    <p>Comments(Optional): {{user.comments}}</p>
+
+   {% with message = get_flashed_messages() %}
+    {% if messages %}
+      {% for messge in messages %}
+        <p> {{messages}}</p>
+       {% endfor%} 
+    {% endif%}
+  {% endwith %}
+  </body>
+
+</html>

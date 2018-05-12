@@ -1,0 +1,121 @@
+*{
+	margin:0;
+}
+
+html, body{
+	height: 100%;
+	position: relative;
+}
+
+nav li{
+	display: inline-block;
+	font-size: 35px;
+	font-family: 'Rokkitt', serif;
+	font-variant: small-caps;
+	color:#848991;
+}
+nav ul{
+	position: fixed;
+	top: 20px;
+	right:45px;
+	word-spacing: 35px;
+}
+
+.sect{
+	background-attachment: fixed;
+}
+
+/*----IMAGES----*/
+.image_one{
+	background-image: url('images/bannerbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 120%;
+}
+
+.soup{
+	height:65%;
+	width: 100%;
+	background-color:#ddc018;
+	position: absolute;
+	
+}
+.image_two{
+	background-image: url('images/grey.jpg')
+}
+.image_three{
+	background-image: url('images/footerbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.subSection{
+	height:75%;
+	background-color: #d6c406;
+	margin: 0px;
+
+}
+
+/*---VEGGIE TEXT---*/
+#veggie_words{
+	color:#30353d;
+	font-family: 'Varela', sans-serif;
+	font-size: 55px;
+	text-align: center;
+	position: absolute;
+	top: 290px;
+	right: 40px;
+	height: 100px;
+	width: 650px;
+}
+
+#veggie_design{
+	position: absolute;
+	top: 530px;
+	right: 250px;
+}
+
+/*---SOUP SECTION---*/
+.soup{
+	position: absolute;
+	top: 755px;
+	height: 100px;
+	width: 100px;
+}
+
+.soup1{
+	left:160px;
+}
+
+.soup2{
+	left: 620px;
+}
+
+.soup3{
+	right:140px;
+}
+
+.tg{
+	height: 40px;
+	width: 100%;
+	color:#848991;
+	position: absolute;
+	top: 880px;
+	font-size: 40px;
+	
+}
+#tg1{
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+#tg2{
+	position: absolute;
+	top: -8px;
+	left: 560px;
+}
+#tg3{
+	position: absolute;
+	top: -8px;
+	right: 90px;
+}

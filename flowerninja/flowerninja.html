@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flower Ninja</title>
+		<meta name="description" content="dissapearing flowers">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="flowerninja.css">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#flower1').click(function(){
+					$(this).hide();
+				});
+				$('#flower2').click (function(){
+					$(this).hide();
+				});
+				$('#flower3').click(function(){
+					$(this).hide();
+				});
+				$('#flower4').click(function(){
+					$(this).hide();
+				});
+
+				$("#restore").click (function(){
+					$("img").show();
+				});
+			});
+		</script>
+
+ 
+</script>
+	</head>
+	<body>
+
+		<div >
+				<img src="flower1.jpeg" alt="pink flower" class="box-size" id="flower1">
+		</div>
+
+		<div >
+				<img src="flower2.jpeg" alt="blue flower" class="box-size" id="flower2">
+		</div>
+
+		<div >
+				<img src="flower3.jpeg" alt="yellow flower" class="box-size" id="flower3">
+		</div>
+		<div  >
+				<img src="flower4.jpeg" alt="orange flower" class="box-size" id="flower4">
+		</div>
+
+		<button id="restore"> Restore me</button>
+
+	</body>
+</html>
